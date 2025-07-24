@@ -1,0 +1,193 @@
+ html {
+  background-color: #fff6ec; /*beige*/
+  padding: 20px 40px;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background: #fff6ec; /*beige*/
+  padding: 10px 0;
+  position: relative;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header img {
+  width: 214px; 
+  height: 214px;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: normal;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffaff0;
+}
+
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background: #fff6ec; /*beige*/
+  padding: 30px;
+}
+
+h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 94.8%;
+  position: absolute;
+  width: 500px;
+  height: 61px;
+  left: 55px;
+  top: 309px,
+
+}
+
+.pink {
+  color: #FF87DD; /*pink*/
+}
+.black {
+  color: #000000; /*black*/
+}
+
+
+button{
+/* Rectangle 2 */
+
+position: absolute;
+width: 188px;
+height: 70px;
+left: 81px;
+top: 609px;
+background: #000000;
+box-shadow: 0px 20px 32px -8px rgba(0, 0, 0, 0.2);
+border-radius: 84px;
+}
+.boton {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-style: semibold;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+/* Ordena ahora */
+}
+
+button:hover {
+  background: #ffd700;
+  color: #2a2a72;
+}
+
+.logo-ayg {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.nav-centro {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+p {
+position: absolute;
+width: 596px;
+height: 135px;
+left: calc(50% - 596px/2 - 394.5px);
+top: 419px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+display: flex;
+align-items: center;
+letter-spacing: -0.01em;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #fff6ec;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  border-radius: 8px;
+}
+
+.dropdown-content li {
+  color: #000;
+  padding: 12px 16px;
+  list-style: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.dropdown-content li:hover {
+  background-color: #ffaff0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  cursor: pointer;
+}
+
+
+/* PRODUCTOS */
+.header_text{
+  position: flex;
+width: 133px;
+height: 21px;
+left: 581px;
+top: 64px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 94.8%;
+/* identical to box height, or 21px */
+
+color: #000000;
+
+}
+
+
+
+
